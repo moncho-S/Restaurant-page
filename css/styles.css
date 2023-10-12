@@ -1,0 +1,95 @@
+:root {
+  --cafe:#3c280d;
+  --cafeNavbar:#652A0E;
+  --fondo:#eee;
+}
+html {
+  height: 100%;
+  
+}
+.svg-icon {
+  width: 1em;
+  height: 1em;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #4691f6;
+}
+
+.svg-icon circle {
+  stroke: #4691f6;
+  stroke-width: 1;
+}
+body {
+    background-color: var(--fondo);
+    
+}
+#navbar_top {
+  padding: 0;
+  text-transform: uppercase;
+
+}
+.titulo {
+  transform: skew(-30deg);
+
+  background-color: var(--cafe);
+}
+.titulo-content {
+  transform: skew(30deg);
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  padding: 0 0.5em;
+  color: white;
+}
+.active {
+    color: black;
+    background: #9a7b4f;
+
+
+  }
+  .anchor {
+    padding-top: 4em;
+    padding-bottom: 2em;
+  }
+
+  .card {
+    transition: 0.5s;
+  }
+  .card:hover {
+    transform: scale(1.2);
+  }
+  
+  .dropdown-menu {
+    background-color: var(--cafeNavbar);
+  }
+  .dropdown-item {
+    background-color: var(--cafeNavbar);
+    color: white;
+  }
+
+  .btn-primary {
+    background-color: var(--cafeNavbar);
+    border-color: var(--cafeNavbar);
+  } 
+.btn-primary:hover {
+    background-color: #b54917;
+    border-color: #b54917;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+
+
+  .hero-image {
+    background-image: url("../img/cleanbanner.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  
